@@ -1,6 +1,5 @@
 serverFiles:
-# Insert the correct values in all parameters marked with "#TODO"
-  alerting_rules.yml:
+# Insert the correct values in all parameters marked with "#TODO"  alerting_rules.yml:
       groups:
       - name: NodeDown
         rules:
