@@ -13,7 +13,7 @@ serverFiles:
           annotations:
             host: "{{ $labels.kubernetes_io_hostname }}"
             summary: "Instance down"
-            description: #TODO
+            description: "Node {{ $labels.kubernetes_io_hostname }} has been down for more than 5 minutes.
       - name: low_memory_alert
         rules:
         - alert: LowMemory
